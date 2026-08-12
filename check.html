@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Check Device Size</title>
+  <script>
+    function checkDeviceSize() {
+      const width = window.innerWidth;
+      const height = window.innerHeight;
+
+      // Hiển thị kích thước màn hình trong console
+      console.log(`Width: ${width}px, Height: ${height}px`);
+
+      // Hiển thị kích thước màn hình trên trang
+      document.getElementById("size-info").textContent = `Width: ${width}px, Height: ${height}px`;
+    }
+
+    // Gọi hàm khi trang web được tải
+    window.onload = checkDeviceSize;
+
+    // Gọi hàm khi thay đổi kích thước cửa sổ (resizing)
+    window.onresize = checkDeviceSize;
+  </script>
+</head>
+<body>
+  <h1>Device Screen Size</h1>
+  <p id="size-info">Checking device size...</p>
+</body>
+</html>

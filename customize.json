@@ -1,0 +1,23 @@
+{
+  "greeting": "Hi",
+  "name": "LyLy",
+  "greetingText": "I really like your name btw!",
+  "wishText": "May all the happiness in the world find you!",
+  "imagePath": "img/LyLy.png?v=7.7.7",
+  "text1": "It's your birthday!",
+  "textInChatBox": "Chúc mừng sinh nhật em! Chúc em sinh nhật vui vẻ...",
+  "sendButtonLabel": "Send",
+  "text2": "That's what I was going to do.",
+  "text3": "But then I stopped.",
+  "text4": "I realised, I wanted to do something",
+  "text4Adjective": "special",
+  "text5Entry": "Because,",
+  "text5Content": "You are Special",
+  "smiley": ":)",
+  "bigTextPart1": "S",
+  "bigTextPart2": "O",
+  "wishHeading": "Happy Birthday!",
+  "outroText": "I truly hope this brings a smile to your face!",
+  "replayText": "Just click if you want a little more happiness today.",
+  "outroSmiley": ":)"
+}
