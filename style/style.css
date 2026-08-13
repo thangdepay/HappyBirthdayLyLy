@@ -291,6 +291,11 @@ body {
     font-size: 1.7rem;
   }
 
+  .five .idea-3 .special-word {
+    display: inline-block;
+    white-space: nowrap;
+  }
+
   .five .idea-3 strong {
     display: inline-block;
     white-space: nowrap;
