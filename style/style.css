@@ -286,14 +286,14 @@ body {
 @media screen and (max-width: 600px) {
   .five .idea-3 {
     width: 100%;
-    padding: 0 10px;
     box-sizing: border-box;
+    padding: 0 10px;
+    font-size: 1.7rem;
   }
 
   .five .idea-3 strong {
-    display: block;
-    width: max-content;
-    margin: 8px auto 0;
+    display: inline-block;
     white-space: nowrap;
+    padding: 3px 5px;
   }
 }
