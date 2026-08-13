@@ -282,3 +282,15 @@ body {
     font-weight: lighter;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .idea-3 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .idea-3 strong {
+    white-space: nowrap;
+  }
+}
